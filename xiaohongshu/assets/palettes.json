@@ -1,0 +1,62 @@
+{
+  "科技深蓝": {
+    "bg": "#0A192F",
+    "card": "#112244",
+    "accent": "#64FFDA",
+    "text": "#FFFFFF",
+    "sub": "#CCD6F6"
+  },
+  "简约白": {
+    "bg": "#FFFFFF",
+    "card": "#F5F5F5",
+    "accent": "#FF4757",
+    "text": "#2D3436",
+    "sub": "#636E72"
+  },
+  "奶油暖色": {
+    "bg": "#FFF8F0",
+    "card": "#FFE8D6",
+    "accent": "#E76F51",
+    "text": "#264653",
+    "sub": "#2A9D8F"
+  },
+  "暗夜紫": {
+    "bg": "#1A1A2E",
+    "card": "#16213E",
+    "accent": "#E94560",
+    "text": "#EAEAEA",
+    "sub": "#0F3460"
+  },
+  "清新绿": {
+    "bg": "#F0FFF4",
+    "card": "#C6F6D5",
+    "accent": "#38A169",
+    "text": "#1A202C",
+    "sub": "#48BB78"
+  },
+  "科技蓝SaaS": {
+    "bg": "#E8F0FE",
+    "card": "#FFFFFF",
+    "accent": "#2B7DE9",
+    "text": "#1A2332",
+    "sub": "#5A6B7F",
+    "gradientEnd": "#F5F8FF",
+    "cardShadow": "rgba(43,125,233,0.08)",
+    "tagBg": "#2B7DE9",
+    "tagText": "#FFFFFF",
+    "summaryBg": "linear-gradient(135deg, #2B7DE9, #1A5FCC)",
+    "summaryText": "#FFFFFF"
+  },
+  "暗黑科技": {
+    "bg": "#121212",
+    "card": "#1E1E1E",
+    "accent": "#00D4AA",
+    "text": "#FFFFFF",
+    "sub": "#B0B0B0",
+    "glow": "#00D4AA",
+    "tagBg": "#00D4AA",
+    "tagText": "#000000",
+    "summaryBg": "#00D4AA",
+    "summaryText": "#000000"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ai-training",
+  "version": "1.0.0",
+  "description": "基于豆包生成的精美PPT设计提取的代码模板。",
+  "main": "example-usage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

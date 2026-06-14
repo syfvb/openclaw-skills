@@ -1,0 +1,43 @@
+{
+  "name": "AI Training Dark Tech",
+  "description": "深色科技风格，适合AI培训课程",
+  "source": "template.pptx",
+  "colors": {
+    "background": "#1a1a2e",
+    "backgroundDark": "#161b33",
+    "primary": "#0f3460",
+    "accent": "#e94560",
+    "accentGreen": "#00d9ff",
+    "textPrimary": "#ffffff",
+    "textSecondary": "#b8c5d6",
+    "textMuted": "#6b7280",
+    "cardBg": "#16213e",
+    "border": "#2d3748"
+  },
+  "fonts": {
+    "chinese": "Microsoft YaHei",
+    "english": "Arial",
+    "title": {
+      "size": 36,
+      "bold": true,
+      "color": "#ffffff"
+    },
+    "subtitle": {
+      "size": 20,
+      "color": "#e94560"
+    },
+    "heading": {
+      "size": 28,
+      "bold": true,
+      "color": "#ffffff"
+    },
+    "body": {
+      "size": 16,
+      "color": "#b8c5d6"
+    },
+    "caption": {
+      "size": 14,
+      "color": "#6b7280"
+    }
+  }
+}

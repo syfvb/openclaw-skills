@@ -1,0 +1,93 @@
+{
+  "name": "豆包AI培训深色科技模板",
+  "version": "1.0",
+  "source": "template.pptx",
+  "colors": {
+    "background": {
+      "primary": "#1a1d29",
+      "secondary": "#161922",
+      "card": "#1e2230",
+      "elevated": "#252a3c"
+    },
+    "primary": {
+      "main": "#3b82f6",
+      "light": "#60a5fa",
+      "dark": "#1d4ed8"
+    },
+    "accent": {
+      "red": "#ef4444",
+      "green": "#10b981",
+      "orange": "#f59e0b",
+      "purple": "#8b5cf6"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#94a3b8",
+      "muted": "#64748b",
+      "disabled": "#475569"
+    },
+    "border": {
+      "light": "#334155",
+      "DEFAULT": "#1e293b",
+      "dark": "#0f172a"
+    }
+  },
+  "typography": {
+    "chinese": "Microsoft YaHei",
+    "english": "Arial",
+    "fallback": "sans-serif",
+    "sizes": {
+      "h1": {
+        "size": 44,
+        "lineHeight": 1.2,
+        "weight": "bold"
+      },
+      "h2": {
+        "size": 32,
+        "lineHeight": 1.3,
+        "weight": "bold"
+      },
+      "h3": {
+        "size": 24,
+        "lineHeight": 1.4,
+        "weight": "bold"
+      },
+      "body": {
+        "size": 16,
+        "lineHeight": 1.6,
+        "weight": "normal"
+      },
+      "caption": {
+        "size": 14,
+        "lineHeight": 1.5,
+        "weight": "normal"
+      },
+      "small": {
+        "size": 12,
+        "lineHeight": 1.4,
+        "weight": "normal"
+      }
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48
+  },
+  "borderRadius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "full": 9999
+  },
+  "shadows": {
+    "sm": "0 1px 2px rgba(0,0,0,0.3)",
+    "md": "0 4px 6px rgba(0,0,0,0.4)",
+    "lg": "0 10px 15px rgba(0,0,0,0.5)",
+    "glow": "0 0 20px rgba(59,130,246,0.3)"
+  }
+}
