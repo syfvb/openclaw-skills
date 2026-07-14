@@ -1,0 +1,38 @@
+[
+  {
+    "id": "attachment-normalize",
+    "name": "attachment-normalize 栈溢出修复",
+    "file_glob": "attachment-normalize-*.js",
+    "check_cmd": "grep -q 'indexOf' \"$FILE\" && grep -q 'slice' \"$FILE\" && grep -q 'charCodeAt' \"$FILE\"",
+    "applied_desc": "两处栈溢出均已修复（indexOf+slice + charCodeAt 遍历）",
+    "needs_desc": "仍有正则栈溢出风险，需检查两处修改是否到位",
+    "reference": "references/attachment-normalize.md"
+  },
+  {
+    "id": "reply-session-conflict",
+    "name": "Reply Session Initialization Conflicted (#98416)",
+    "file_glob": "session-accessor-*.js",
+    "check_cmd": "grep -q 'mergeConcurrentReplySessionMetadata' \"$FILE\" && grep -q 'createReplySessionInitializationRevision' \"$FILE\"",
+    "applied_desc": "官方已修复：guard 收窄到 sessionId/sessionFile + mergeConcurrentReplySessionMetadata + reentrant",
+    "needs_desc": "缺少官方修复（mergeConcurrentReplySessionMetadata 或 guard 收窄），需排查",
+    "reference": "references/reply-session-conflict.md"
+  },
+  {
+    "id": "control-ui-allowed-folders-frontend",
+    "name": "Control UI 附件路径白名单-前端 (#10210240)",
+    "file_glob": "control-ui/assets/index-*.js",
+    "check_cmd": "grep -qF 'home|Users|root' \"$FILE\"",
+    "applied_desc": "前端正则已包含 /root（补丁已生效或官方已修复）",
+    "needs_desc": "前端正则不含 /root，附件无法预览，需重新打补丁",
+    "reference": "references/control-ui-allowed-folders.md"
+  },
+  {
+    "id": "control-ui-allowed-folders-backend",
+    "name": "Control UI 附件路径白名单-服务端 (#10210240)",
+    "file_glob": "local-roots-*.js",
+    "check_cmd": "grep -q '#10210240 patch' \"$FILE\"",
+    "applied_desc": "服务端已追加所有 agent workspace 到 roots（补丁已生效或官方已修复）",
+    "needs_desc": "服务端 localMediaPreviewRoots 缺少非默认 agent workspace，需重新打补丁",
+    "reference": "references/control-ui-allowed-folders.md"
+  }
+]
